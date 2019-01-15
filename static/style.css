@@ -1,0 +1,75 @@
+    body{
+
+        background-color: rgb(61, 63, 75);
+    }
+  .error{ 
+    color: red;
+  }
+
+
+  .wrapper{
+    width:420px;
+    margin: auto;
+  }
+  
+  h1{
+    text-align: center;
+    padding:30px 0px 0px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#FFF;
+    text-transform:uppercase;
+    text-shadow:#000 0px 1px 5px;
+    margin:0px;
+  }
+  
+  label, input, .submittal{
+    font:13px Open Sans;
+    color:rgb(235, 241, 241);
+    text-shadow:#000 0px 1px 5px;
+    margin-bottom:10px;
+    text-align: center;
+    display: block;
+  }
+  
+  .signup{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+  }
+  
+
+  .form-control, .success{
+    width:25%;
+    padding:15px 0px 15px 8px;
+    border-radius:5px;
+    background:rgba(46, 38, 38, 0.2);
+    border:1px solid rgba(0,0,0,1);
+    margin-bottom:5px;
+    color:rgb(205, 208, 241);
+    text-shadow:#000 0px 1px 5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .submit{color: #000;}
+
+  .success {
+    font-size: x-large;
+  }
